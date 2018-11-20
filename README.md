@@ -4,7 +4,7 @@ present 轻量级密码 C#实现
 
 An `Ultra-Lightweight` Block Cipher `C#`<br>
 
-[My blog](http://blog.csdn.net/caomage "Welcome to visit")  
+[My blog](http://www.caomage.com "Welcome to visit")  
 
 <div align=center><img width="500" height="500" src="https://github.com/usecodelee/present/raw/master/img/title.png"/></div>
 
