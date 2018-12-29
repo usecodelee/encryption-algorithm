@@ -1,7 +1,8 @@
 # encryption-algorithm
 
 [![star this repo](http://githubbadges.com/star.svg?user=usecodelee&repo=encryption-algorithm&style=flat)](https://github.com/usecodelee/encryption-algorithm)
-[![fork this repo](http://githubbadges.com/fork.svg?user=usecodelee&repo=encryption-algorithm&style=flat)](https://github.com/usecodelee/encryption-algorithm/fork) ![](https://img.shields.io/badge/language-C%23-yellowgreen.svg) ![](https://img.shields.io/badge/C%23-81.5%25-orange.svg) ![](https://img.shields.io/badge/SHOW-GUI-red.svg) [![](https://img.shields.io/apm/l/:packageName.svg)](https://github.com/usecodelee/encryption-algorithm/blob/master/LICENSE)
+[![fork this repo](http://githubbadges.com/fork.svg?user=usecodelee&repo=encryption-algorithm&style=flat)](https://github.com/usecodelee/encryption-algorithm/fork) ![](https://img.shields.io/badge/language-C%23-yellowgreen.svg) ![](https://img.shields.io/badge/C%23-81.5%25-orange.svg) ![](https://img.shields.io/badge/SHOW-GUI-red.svg) [![](https://img.shields.io/apm/l/:packageName.svg)](https://img.shields.io/badge/license-MIT-blue.svg)  
+
 
 各种密码学算法的 C# GUI编程实现，包含：  
 
