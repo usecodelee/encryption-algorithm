@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="des">
+</Property><Property Name="解决方案文件" Value="C:\Users\yh\Desktop\DES\des(c#)\des.sln">
+</Property><Property Name="用户选项文件" Value="C:\Users\yh\Desktop\DES\des(c#)\des.suo">
+</Property><Property Name="Date" Value="2017年4月10日">
+</Property><Property Name="Time" Value="21:45">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="des.sln" Description="文件已成功备份为 C:\Users\yh\Desktop\DES\des(c#)\Backup\des.sln">
+</Event><Event ErrorLevel="0" Project="" Source="des.suo" Description="文件已成功备份为 C:\Users\yh\Desktop\DES\des(c#)\Backup\des.suo">
+</Event><Event ErrorLevel="0" Project="des" Source="des\des.csproj" Description="项目文件已成功备份为 C:\Users\yh\Desktop\DES\des(c#)\Backup\des\des.csproj">
+</Event><Event ErrorLevel="0" Project="des" Source="des\Form1.cs" Description="文件已成功备份为 C:\Users\yh\Desktop\DES\des(c#)\Backup\des\Form1.cs">
+</Event><Event ErrorLevel="0" Project="des" Source="des\Form1.Designer.cs" Description="文件已成功备份为 C:\Users\yh\Desktop\DES\des(c#)\Backup\des\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="des" Source="des\Program.cs" Description="文件已成功备份为 C:\Users\yh\Desktop\DES\des(c#)\Backup\des\Program.cs">
+</Event><Event ErrorLevel="0" Project="des" Source="des\Properties\AssemblyInfo.cs" Description="文件已成功备份为 C:\Users\yh\Desktop\DES\des(c#)\Backup\des\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="des" Source="des\Properties\Resources.Designer.cs" Description="文件已成功备份为 C:\Users\yh\Desktop\DES\des(c#)\Backup\des\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="des" Source="des\Properties\Settings.Designer.cs" Description="文件已成功备份为 C:\Users\yh\Desktop\DES\des(c#)\Backup\des\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="des" Source="des\Properties\Settings.settings" Description="文件已成功备份为 C:\Users\yh\Desktop\DES\des(c#)\Backup\des\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="des" Source="des\Form1.resx" Description="文件已成功备份为 C:\Users\yh\Desktop\DES\des(c#)\Backup\des\Form1.resx">
+</Event><Event ErrorLevel="0" Project="des" Source="des\Properties\Resources.resx" Description="文件已成功备份为 C:\Users\yh\Desktop\DES\des(c#)\Backup\des\Properties\Resources.resx">
+</Event><Event ErrorLevel="1" Project="des" Source="des\des.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="des" Source="des\des.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="des" Source="des\des.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="des.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="des.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="des" Source="des\des.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

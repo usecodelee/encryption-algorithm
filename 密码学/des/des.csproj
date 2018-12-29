@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8CB6A995-130C-449B-B8D8-D1B8DAAF05A1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>des</RootNamespace>
+    <AssemblyName>des</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>3.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IrisSkin2, Version=2006.3.22.45, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\IrisSkin2.DLL</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AES\aesjia.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AES\aesjia.Designer.cs">
+      <DependentUpon>aesjia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AES\Decryption.cs" />
+    <Compile Include="AES\Encryption.cs" />
+    <Compile Include="AES\EncryptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AES\EncryptionForm.Designer.cs">
+      <DependentUpon>EncryptionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AES\KeyExpansion.cs" />
+    <Compile Include="AES\KeyExpansionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AES\KeyExpansionForm.Designer.cs">
+      <DependentUpon>KeyExpansionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AES\MixColumn.cs" />
+    <Compile Include="Present\present.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Present\present.Designer.cs">
+      <DependentUpon>present.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AES\SubBytes.cs" />
+    <Compile Include="DES\windows1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DES\windows1.Designer.cs">
+      <DependentUpon>windows1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DES\windows2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DES\windows2.Designer.cs">
+      <DependentUpon>windows2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="扩展欧几里德算法\oujilide.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="扩展欧几里德算法\oujilide.Designer.cs">
+      <DependentUpon>oujilide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="素性检测\Miller-Robin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="素性检测\Miller-Robin.Designer.cs">
+      <DependentUpon>Miller-Robin.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AES\aesjia.resx">
+      <DependentUpon>aesjia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AES\EncryptionForm.resx">
+      <DependentUpon>EncryptionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AES\KeyExpansionForm.resx">
+      <DependentUpon>KeyExpansionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Present\present.resx">
+      <DependentUpon>present.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="DES\windows1.resx">
+      <DependentUpon>windows1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DES\windows2.resx">
+      <DependentUpon>windows2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="扩展欧几里德算法\oujilide.resx">
+      <DependentUpon>oujilide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="素性检测\Miller-Robin.resx">
+      <DependentUpon>Miller-Robin.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="3.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

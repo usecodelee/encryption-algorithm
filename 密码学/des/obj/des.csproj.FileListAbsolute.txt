@@ -1,0 +1,16 @@
+E:\Users\王星\Desktop\des\des\obj\Debug\ResolveAssemblyReference.cache
+E:\Users\王星\Desktop\des\des\obj\Debug\des.Form1.resources
+E:\Users\王星\Desktop\des\des\obj\Debug\des.Properties.Resources.resources
+E:\Users\王星\Desktop\des\des\obj\Debug\des.csproj.GenerateResource.Cache
+E:\Users\王星\Desktop\des\des\bin\Debug\des.exe
+E:\Users\王星\Desktop\des\des\bin\Debug\des.pdb
+E:\Users\王星\Desktop\des\des\obj\Debug\des.exe
+E:\Users\王星\Desktop\des\des\obj\Debug\des.pdb
+E:\Users\王星\Desktop\des(C#)\使用DESCryptoServiceProvider类\des\obj\Debug\des.exe
+E:\Users\王星\Desktop\des(C#)\使用DESCryptoServiceProvider类\des\obj\Debug\des.pdb
+E:\Users\王星\Desktop\des(C#)\使用DESCryptoServiceProvider类\des\bin\Debug\des.exe
+E:\Users\王星\Desktop\des(C#)\使用DESCryptoServiceProvider类\des\bin\Debug\des.pdb
+E:\Users\王星\Desktop\des(C#)\使用DESCryptoServiceProvider类\des\obj\Debug\ResolveAssemblyReference.cache
+E:\Users\王星\Desktop\des(C#)\使用DESCryptoServiceProvider类\des\obj\Debug\des.Form1.resources
+E:\Users\王星\Desktop\des(C#)\使用DESCryptoServiceProvider类\des\obj\Debug\des.Properties.Resources.resources
+E:\Users\王星\Desktop\des(C#)\使用DESCryptoServiceProvider类\des\obj\Debug\des.csproj.GenerateResource.Cache
